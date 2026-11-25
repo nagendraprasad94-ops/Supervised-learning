@@ -8,33 +8,18 @@ The primary objective is to investigate whether baseline clinical and demographi
 
 The project focuses on classification model development, exploratory data analysis, feature selection, class imbalance, hyperparameter optimization, cross-validation, and model evaluation.
 
-## Dataset
+### 1. Dataset
 
-- **Dataset:** ACTG 175 HIV Clinical Trial
-- **Number of samples:** 2,139
-- **Number of features:** 24
-- **Problem type:** Binary classification
+This project uses the AIDS Clinical Trials Group Study 175 (ACTG 175) dataset.
 
-The dataset contains clinical, demographic, treatment-related, and laboratory measurements.
+**Dataset source:** AIDS Clinical Trials Group Study 175 — Kaggle
 
-Some of the variables include:
+- Number of instances: 2,139
+- Number of features: 23 (as listed by UCI)
 
-- Age and weight
-- Gender and race
-- Treatment information
-- Hemoglobin measurements
-- CD4 and CD8 cell counts
-- Clinical symptoms
-- Treatment history
+Download the dataset from the official source and place the CSV file in your local project directory.
 
-### Target Variable
-
-The analysis uses the recorded outcome label:
-
-- `1` – Treatment failure
-- `0` – Censored observation
-
-The target represents a recorded failure-versus-censoring classification label.
+**Note:** The dataset is not included in this repository. Please follow the dataset's licensing and acknowledgement requirements.
 
 ## Project Objectives
 
