@@ -180,15 +180,6 @@ The results highlight the importance of considering class imbalance, feature ava
 - Scikit-learn
 - Jupyter Notebook
 
-## Repository Contents
-
-The repository is intended to contain:
-
-- Jupyter Notebook containing the data analysis and machine learning workflow
-- Project documentation
-- Model evaluation results
-- Supporting visualizations
-
 ## Important Considerations
 
 The classification target represents the recorded failure-versus-censoring label. This project is a classification-based exploration and should not be interpreted as a conventional time-to-event survival analysis.
